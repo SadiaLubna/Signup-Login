@@ -1,0 +1,118 @@
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  font-family: sans-serif;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+  background: #ecf0f3;
+}
+.plil-div {
+  width: 400px;
+  height: 520px;
+  padding: 20px 35px 15px 35px;
+  border-radius: 35px;
+  background: #ecf0f3;
+  box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.8),
+  6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+.plil-logo {
+  background: url("logo.png");
+  background-size: cover;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin: 0 auto;
+  box-shadow: 0 0 2px #5f5f5f,
+  0 0 0 5px #ecf0f3,
+  6px 6px 12px #a7aaaf,
+  -6px -6px 15px #ffffff;
+}
+.plil-title {
+  text-align: center;
+  font-size: 28px;
+  padding-top: 24px;
+  letter-spacing: 0.5px;
+  color: #2298ce;
+}
+.plil-sub-title {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 7px;
+  color: #05588b;
+}
+.plil-input-fields {
+  width: 100%;
+  padding: 20px 5px 10px 5px;
+}
+.plil-input-fields input {
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 18px;
+  color: #555;
+  padding: 15px 10px 15px 5px;
+}
+.plil-email, .plil-username, .plil-password {
+  margin-bottom: 20px;
+  border-radius: 20px;
+  box-shadow: inset 5px 5px 5px #cbced1,
+  inset -5px -5px 5px #ffffff;
+}
+.plil-input-fields svg {
+  height: 22px;
+  margin: 0 10px -3px 25px;
+}
+.plil-button {
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  height: 60px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: sans-serif;
+  color: #fff;
+  text-align: center;
+  background: #2298ce;
+  box-shadow: 7px 7px 8px #cbced1,
+  -7px -7px 8px #ffffff;
+  transition: 0.5s;
+}
+.plil-button:hover {
+  background: #14678d;
+}
+.plil-link {
+  padding-top: 10px;
+  text-align: center;
+}
+.plil-link a {
+  text-decoration: none;
+  color: #aaa;
+  font-size: 15px;
+  transition: 0.5s;
+  letter-spacing: 0.5px;
+}
+.plil-link a:hover {
+  text-decoration: none;
+  color: #2298ce;
+}
+
+
+
+
+
+
+
+
+
+
+
